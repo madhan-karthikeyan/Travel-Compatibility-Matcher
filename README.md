@@ -1,12 +1,13 @@
 # Travel Compatibility Matcher
 
-## Overview
-The Travel Compatibility Matcher is a C application that calculates compatibility scores between travelers based on shared interests, destinations, and overlapping travel dates. Using structured data and an efficient scoring algorithm, it provides a quick and simple way to match compatible travel companions.
+## Project Overview
+The Travel Compatibility Matcher is a C program designed to help travelers find compatible companions based on shared interests, destinations, and overlapping travel dates. The system uses custom data structures and algorithms to calculate compatibility scores between travelers.
 
 ## Features
-- **Interest Matching**: Compares and scores shared interests between travelers.
-- **Destination Matching**: Identifies and scores common destinations.
-- **Date Overlap Detection**: Awards additional compatibility points if travel dates align.
+- **Interest Matching**: Compares travelers' interests to find common points.
+- **Destination Matching**: Identifies overlapping destinations for better compatibility.
+- **Date Overlap Detection**: Checks if travelers' schedules align.
+- **Scoring System**: Generates a compatibility score based on interests, destinations, and dates.
 
 ## Technical Details
 - **Data Structures**: Uses `Traveler` and `Date` structs to store traveler information.
